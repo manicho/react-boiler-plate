@@ -52,12 +52,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
     new HtmlWebpackPlugin({
-      template: 'index.html'
+      template: 'src/index.html'
     }),
   ],
-  devServer: {
-    host: 'localhost',
-    port: 3000,
-    open: true
-  }
 }
